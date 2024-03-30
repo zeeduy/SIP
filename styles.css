@@ -1,0 +1,235 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header a{
+    padding-left: 20px;
+}
+header img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.firstFrame{
+    display:flex;
+    justify-content: center;
+}
+
+.first{
+    
+    background-image:url(img/back.png);
+    background-repeat:no-repeat;
+    height:435px;
+    width:735px;
+    padding-right: 100px;
+    padding-top: 40px;
+    text-align: right;
+    margin-top: 30px;
+
+}
+
+.first p{
+    color:white;
+    font-size: 32px;
+    padding-bottom: 30px;
+    
+}
+
+.first button{
+    width: 242px;
+    height: 53px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: none;
+    background-color: #175EED;
+    text-decoration: none;
+}
+
+.first button:hover{
+    background-color: #6289de;
+    transition: 1s;
+}
+
+.first a{
+    color: white;
+
+}
+
+.theBest{
+    margin-top: 2%;
+
+}
+
+.theBest p{
+    text-align: center;
+    color:#175EED;
+    font-size: 24px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    padding-right: 100px; 
+} 
+
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; 
+    padding: 10px;  
+    width: 200px;  
+    height: 200px;
+    border-radius: 15px;
+    background-color: #175EED;
+    margin-top: 15px;
+
+}
+
+
+.card p{
+    
+    color: white;
+    align-items: left; 
+}
+.card a{
+    
+    color:rgba(255, 255, 255, 0.484);
+    
+
+}  
+.card img{
+   
+    width: 30px;
+    height: 30px;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+
+}
+.topUser{
+    
+   
+}
+
+.line{
+    padding-left: 15%;
+}
+
+.topUser p{
+    
+    font-size: 24px;
+    padding-top: 50px;
+    
+    color:#255CD6;
+    padding-left: 200px;
+   
+}
+.rating img{
+
+    padding-top: 25px;
+
+}
+
+.topPost {
+    
+    
+    margin-left: 20%;
+    display: flex; 
+    justify-content: center;
+    width: 400px;  
+    height: 750px;
+    
+}
+.topPost h{
+    color:#175EED;
+    font-size: 24px;
+    
+}
+
+.topPost p{
+    
+    top: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.last img{
+    
+    padding-top: 60px;
+    width: 676px;
+    height: 480px;
+    
+}
+
+.last p{
+   
+    padding-bottom: 30px;
+    background-image:url(img/Ellips.png);
+    background-repeat:no-repeat;
+    width: 604px;
+    height: 441px;
+    color: white;
+    padding-top: 125px;
+    font-size: 24px;
+    padding-left: 85px;
+}
+
+footer {
+    display: flex;
+    background-color: #3668cc;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+    font-size: 24px;
+    width: 150px;
+    height: 60px;
+
+}
+.links a{
+
+    color:white;
+
+}
+
+.lk{
+    display: flex;
+}
+.lk img{
+    
+}
+
+.lk p{
+
+    color:#175EED;
+    font-size: 24px;
+
+}
+
+.topPost{
+    display: flex;
+    flex-direction: column;
+}
